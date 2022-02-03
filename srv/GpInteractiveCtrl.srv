@@ -1,0 +1,13 @@
+uint8 STEP_START_EXECUTION = 1
+uint8 STEP_EXECUTE_GENERATION = 2
+uint8 STEP_POP_BEHAVIOR_TREE = 3
+uint8 STEP_PUSH_FITNESS = 4
+uint8 STEP_NEXT_GENERATION = 5
+
+uint8 step
+behavior_tree_learning/PushFitness push_fitness
+---
+bool success
+behavior_tree_learning/NextGeneration next_generation
+behavior_tree_learning/PopBehaviorTree pop_bt
+
